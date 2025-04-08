@@ -1,0 +1,28 @@
+1744005365404: GET: /api/users
+1744005372652: GET: /api/users/1
+1744005386923: GET: /users
+1744005501062: GET: /users: ::1
+1744005508456: GET: /api/users: ::1
+1744005663495: POST: /api/users: ::ffff:127.0.0.1
+1744005689670: POST: /api/users: ::1
+1744005701250: GET: /api/users: ::1
+1744005732716: GET: /api/users/1: ::1
+1744005893027: POST: /api/users: ::1
+1744005949777: POST: /api/users: ::1
+1744005957045: GET: /api/users/1006: ::1
+1744006412785: DELETE: /api/users/1005: ::1
+1744006628068: DELETE: /api/users/1005: ::1
+1744006709113: DELETE: /api/users/1005: ::1
+1744006725056: DELETE: /api/users/1005: ::1
+1744006777512: DELETE: /api/users/1005: ::1
+1744006790228: GET: /api/users/1006: ::1
+1744006793279: GET: /api/users/1005: ::1
+1744007072270: GET: /api/users/1006: ::1
+1744007104487: PATCH: /api/users/1: ::1
+1744007116688: GET: /api/users/1: ::1
+1744007269721: PATCH: /api/users/1: ::1
+1744007282251: PATCH: /api/users/1: ::1
+1744007296101: GET: /api/users/1: ::1
+1744007355573: PATCH: /api/users/2: ::1
+1744007380365: PATCH: /api/users/2: ::1
+1744008086388: GET: /api/users: ::1

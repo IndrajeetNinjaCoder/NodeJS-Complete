@@ -1,0 +1,24 @@
+Versons
+
+5.1.0
+
+1st Part -> 5
+2nd Part -> 1
+3rd Part -> 0
+
+// 3rd part (Last Part) - Minor Fixes (Optional)
+Latest -> 5.1.0
+
+2nd Part - Recommended Bug Fix (Security Fix)
+
+1st part - Major / Breaking update
+if you created a project in v 4.x.x then change it into 5.x.x only after understanding all the updated in 5.x.x other wise don't change it, because it can crash the project.
+use latest virsion (5.x.x) while creating new project
+
+^ -> carrot symbol
+^5.1.0 -> it keep 5 unchanged and keep updating the 2nd and 3rd part of the version of packages whenever we update
+
+~ -> Tilled line
+~5.1.0 -> it means don't update 1st and second part of the verson, and can update the last part
+
+5.1.0 -> it means do not update any part of the version
