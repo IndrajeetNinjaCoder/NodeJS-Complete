@@ -8,6 +8,7 @@ const app = express();
 
 app.use(express.json())
 
+<<<<<<< HEAD
 app.use((req, res, next) => {
     console.log("Hello from Middleware") // it will hold the request and not return anything
     // return res.json({msg: "Hello from Middleware"}) // now every api will return only this message instead of their original data
@@ -19,6 +20,8 @@ app.use((req, res, next) => {
 
 })
 
+=======
+>>>>>>> 05a4745bc6a38109a79470219c8874c5ed2aab0d
 app.get("/users", (req, res) => {
     const html = `
         <ol>
@@ -36,6 +39,7 @@ app.route("/api/users/:id")
     const id = Number(req.params.id);
     const user = users.find((user) => user.id == id);
     return res.json(user);  // return res.json(data) is equal to res.send(data)
+<<<<<<< HEAD
 })
 .delete((req, res) => {
     const id = Number(req.params.id)
@@ -69,13 +73,23 @@ app.route("/api/users/:id")
 
     return res.json({msg: "User data updated successfully", user: user})
 
+=======
+}).post((req, res) => {
+    res.send("Status Pending")
+
+}).patch((req, res) => {
+    res.send("Status Panding")
+>>>>>>> 05a4745bc6a38109a79470219c8874c5ed2aab0d
 })
 
 
 
 // REST API
 app.get("/api/users", (req, res)=>{
+<<<<<<< HEAD
     res.setHeader("X-MyName", "Indrajeet") // Always add X- to custom header is the best practice
+=======
+>>>>>>> 05a4745bc6a38109a79470219c8874c5ed2aab0d
     res.send(users);
 })
 
@@ -85,7 +99,11 @@ app.post("/api/users", (req, res) => {
     console.log("Body: ", body);
     users.push({...body, id: users.length+1})
     fs.writeFile("./MOCK_DATA.json", JSON.stringify(users), (error, data) => {
+<<<<<<< HEAD
         return res.json({status: "User Created Successfully", id: users.length})
+=======
+        return res.json({status: "Pending", id: users.length})
+>>>>>>> 05a4745bc6a38109a79470219c8874c5ed2aab0d
     })
     
 })

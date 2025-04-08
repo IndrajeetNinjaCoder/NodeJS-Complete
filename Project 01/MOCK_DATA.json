@@ -1,5 +1,24 @@
 [
     {
+<<<<<<< HEAD
+=======
+        "id": 1,
+        "first_name": "Anestassia",
+        "last_name": "Birkenhead",
+        "email": "abirkenhead0@51.la",
+        "gender": "Female",
+        "job_title": "Assistant Manager"
+    },
+    {
+        "id": 2,
+        "first_name": "Jeanna",
+        "last_name": "Pavinese",
+        "email": "jpavinese1@phpbb.com",
+        "gender": "Female",
+        "job_title": "Administrative Officer"
+    },
+    {
+>>>>>>> 05a4745bc6a38109a79470219c8874c5ed2aab0d
         "id": 3,
         "first_name": "Drusi",
         "last_name": "Norcliff",
@@ -7998,6 +8017,7 @@
         "gender": "Male",
         "job_title": "Web developer",
         "id": 1002
+<<<<<<< HEAD
     },
     {
         "id": 1003
@@ -8028,5 +8048,7 @@
         "email": "example111@gmail.com",
         "gender": "male",
         "job_title": "Assistant Manager"
+=======
+>>>>>>> 05a4745bc6a38109a79470219c8874c5ed2aab0d
     }
 ]

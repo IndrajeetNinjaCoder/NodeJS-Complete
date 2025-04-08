@@ -9,8 +9,14 @@ GET /api/users/1 - Get the uer with id 1  - Done
 Dynamic path -> /api/users/:id
 :id -> variable | Dynamic
 
+<<<<<<< HEAD
 POST /api/users - create new user -> Done
 
 PATCH /api/users/1 - edit the user with id 1 -> 
+=======
+POST /api/users - create new user
+
+PATCH /api/users/1 - edit the user with id 1
+>>>>>>> 05a4745bc6a38109a79470219c8874c5ed2aab0d
 
 DELETE /api/users/1 - delete the user with id 1
